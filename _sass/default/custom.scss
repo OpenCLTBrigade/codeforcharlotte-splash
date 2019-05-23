@@ -1,0 +1,47 @@
+/* About */
+
+.about-section {
+  background-color: #2e9fd7;
+  padding: 50px 0;
+  color: #fefefe;
+  @include media-breakpoint-up(xl) {
+    padding: 75px 0;
+  }
+}
+
+/* Services */
+
+.services {
+  padding: 50px 0;
+  background-color: rgba(255, 201, 3, 0.2);
+}
+
+.service-item img {
+  margin-bottom: 20px;
+  max-width: 75%;
+}
+
+@media screen and (max-width: 766px) {
+  .service-item {
+    margin: 50px 0;
+  }
+
+  .service-item img {
+    max-width: 50%;
+    margin: 0 auto 20px auto;
+  }
+}
+
+/* Callout */
+
+.callout {
+  display: table;
+  width: 100%;
+  height: 400px;
+  color: #fff;
+  background: url(../img/callout.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
